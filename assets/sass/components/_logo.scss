@@ -1,0 +1,33 @@
+// Logo BEM
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 5rem;
+
+  &__img {
+    height: 100%;
+    margin-right: 1.5rem;
+    border-radius: $border-rounded;
+    font-weight: 700;
+    
+  }
+
+  &__title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    width: 30%;
+  }
+
+  &__right-content{
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+// Clase modificadora logo
+.logo--small {
+  height: 3.5rem;
+}

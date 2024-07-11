@@ -1,0 +1,57 @@
+.btn {
+  width: 100%;
+  height: 2rem;
+  justify-content: center;
+  border: 1px solid $light-grey;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  background-color: $white;
+
+  &__login {
+    display: block;
+    text-decoration: none;
+    color: $white;
+    font-weight: $bolder;
+  }
+
+  &__google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: $black;
+    font-weight: $bolder;
+
+    img {
+      width: 24px;
+      margin-right: 0.5rem; // Espacio entre la imagen y el texto
+    }
+  }
+
+  &__sus{
+    width: 20%;
+    height: 40px;
+    padding: 5px 10px;
+    background-color: $light-grey;
+    border: 1px solid $light-grey;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+    color: $black;
+    font-weight: 800;
+  }
+  &__sus a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+
+  
+  
+}
+
+.btn__green {
+  background-color: $green-btn ;
+}
