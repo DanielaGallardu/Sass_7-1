@@ -1,8 +1,8 @@
-// Container para dar flexbox horizontal
+
 .h-container {
   width: 100%;
-  display: flex; // crea contenedor de tipo flex
-  flex-direction: row; // dirección de tipo flex
+  display: flex; 
+  flex-direction: row; 
   justify-content: space-between;
 }
 
@@ -15,7 +15,6 @@
   padding-top: 1rem;
 }
 
-// Contenedor tipo aside con dirección en columnas
 .aside-container {
   margin-left: 2rem;
   display: flex;
@@ -31,7 +30,7 @@
 
  
 }
-// section container estructura
+
 .section {
   @include padding-4-sides($vertical-space-full-height-container, $horizontal-space-full-width);
 }

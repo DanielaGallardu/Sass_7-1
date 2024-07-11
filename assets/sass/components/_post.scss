@@ -1,4 +1,3 @@
-// BEM Post Vertical
 .v-post {
   display: flex;
   flex-direction: column;
@@ -16,7 +15,7 @@
     width: 100%;
     border-radius: $border-rounded;
     margin-bottom: 1.5rem;
-    object-fit: cover; // No deforma la imagen
+    object-fit: cover; 
   }
   a{
     text-decoration: none;
@@ -28,8 +27,7 @@
 .v-post--small {
   width: 18rem;
 
-  // afecta el tamaño de la imagen si está
-  // dentro de un post pequeño
+
   .v-post__img {
     height: 8rem;
   }
@@ -75,7 +73,7 @@
   border-radius: $border-rounded;
   @include padding-4-sides(1.5rem, 1.5rem);
   
-  &__img { // post-full-screen__img
+  &__img { 
     display: inline-block;
     justify-self: center;
     border-radius: $border-rounded;
@@ -101,7 +99,7 @@
   
  
  .s__post-p{
-  margin-bottom: 10px; /* Espacio entre el párrafo y los inputs */
+  margin-bottom: 10px; 
   width: 385px;
   color: $white;
   font-size: 25px;
